@@ -33,9 +33,13 @@ public class User {
     public void setUserName(String userName) throws NameLengthException {
 
         if (userName.length() < 6) {
-            throw new NameLengthException("Username must at least 6 characters long");
-        } else if (userName.length() >= 20) {
+            throw new NameLengthException("Username must be at least 6 characters long");
+        }
+        if (userName.length() >= 20) {
             throw new NameLengthException("Username must be no longer thant 20 characters");
+        }
+        if(userName.contains(" ")){
+            throw new NameLengthException("Username must not contain whitespaces");
         }
         this.userName = userName;
 
@@ -59,7 +63,13 @@ public class User {
         return fullName;
     }
 
-    public void setFullName(String fullName) {
+    public void setFullName(String fullName) throws NameLengthException{
+        if (fullName.length() < 6) {
+            throw new NameLengthException("Name must be at least 6 characters long");
+        }
+        if (fullName.length() >= 20) {
+            throw new NameLengthException("Name must be no longer thant 20 characters");
+        }
         this.fullName = fullName;
     }
 

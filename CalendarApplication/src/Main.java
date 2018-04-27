@@ -1,3 +1,4 @@
+import com.calendar.Event.*;
 import com.calendar.ToDo.ShoppingItem;
 import com.calendar.ToDo.ShoppingList;
 import com.calendar.ToDo.Task;
@@ -31,10 +32,25 @@ public class Main {
 //
 //        listOne.view();
 
-        User martinIvanov = new User("martinivanov","martin1ivanov","Martin Ivanov");
+        User martinIvanov = new User("Sexi_Pi4_91","martin1ivanov","Martin Ivanov");
         User danailIvanov = new User("danailfdsfd","dffddf1","Danail Ivanov");
+        User alexanderSimeonov = new User("lmaooooo","12345","Alexander Simeonov");
 
 
+        EventObject testMeeting = new Meeting("testMeeting", "2018-04-27", "2018-04-28", "testTopic",
+                "u nas", "5 min", "www.pornhub.com", MeetingTypes.TEAMBUILDING, null );
+        EventObject testAppointment = new Appointment("testAppointment", "2018-04-27", "2018-04-28", "klecane"
+        ,"u tqh", "kolkot tolkoz", AppointmentTypes.DATE, martinIvanov);
+
+        ((Meeting) testMeeting).download();
+        ((Meeting) testMeeting).upload("NESHTO SI");
+        ((Meeting) testMeeting).download();
+        ((Meeting) testMeeting).addParticipant(martinIvanov);
+        ((Meeting) testMeeting).addParticipant(danailIvanov);
+        ((Meeting) testMeeting).addParticipant(alexanderSimeonov);
+        testMeeting.view();
+
+        testAppointment.view();
 
     }
 }

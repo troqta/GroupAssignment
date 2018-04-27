@@ -1,5 +1,7 @@
 package com.calendar;
 
+import com.calendar.Interfaces.Viewable;
+
 public class CalendarObject implements Viewable {
     private String name;
     private String creationDate;
