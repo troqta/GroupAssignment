@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class LogInMenu extends Menu {
     Scanner in = new Scanner(System.in);
+
+    @Override
     public void selectOptions(){
         int option = 0;
         while (option <= 0 || option > 3){
