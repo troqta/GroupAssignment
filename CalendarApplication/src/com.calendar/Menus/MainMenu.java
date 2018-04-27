@@ -1,18 +1,24 @@
 package com.calendar.Menus;
 
+import com.calendar.DashBoard;
+
 import java.util.Scanner;
 
-public class MainMenu extends Menu{
+public class MainMenu extends Menu {
     Scanner in = new Scanner(System.in);
 
+    public MainMenu(DashBoard dashBoard) {
+        super(dashBoard);
+    }
+
     @Override
-    public void selectOptions(){
+    public void selectOptions() {
         int option = 0;
-        while (option <= 0 || option > 3){
+        while (option <= 0 || option > 9) {
             printMenu();
             option = in.nextInt();
         }
-        switch (option){
+        switch (option) {
             case 1:
             case 2:
             case 3:
@@ -21,9 +27,14 @@ public class MainMenu extends Menu{
             case 6:
             case 7:
             case 8:
-            case 9: System.exit(0);
+                getDashBoard().logOut();
+                break;
+            case 9:
+                System.exit(0);
+                break;
         }
     }
+
     @Override
     public void printMenu() {
         System.out.println("Insert a digit to select menu option:");
