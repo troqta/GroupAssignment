@@ -3,9 +3,7 @@ package com.calendar;
 import com.calendar.Menus.LogInMenu;
 import com.calendar.Menus.MainMenu;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class DashBoard {
     private Scanner in = new Scanner(System.in);
@@ -85,5 +83,33 @@ public class DashBoard {
         System.out.println("LogOut successful.");
         currentUser = null;
         new LogInMenu(this).selectOptions();
+    }
+    public void listByDate(){
+        System.out.println("Please enter a date: ");
+        String date = in.nextLine();
+        for(CalendarObject obj : currentUser.getSchedule()){
+            if(obj.getDate().equals(date)){
+                obj.view();
+            }
+        }
+    }
+    public void showCalendar(){
+        HashSet<String> days = new HashSet<>();
+        int objectCounter = 0;
+        for(CalendarObject obj : currentUser.getSchedule()){
+            days.add(obj.getDate());
+        }
+        TreeSet<String> sortedDays = new TreeSet<>(days);
+        for (String date : sortedDays) {
+            for(CalendarObject obj : currentUser.getSchedule()){
+                if(obj.getDate().equals(date)){
+                    objectCounter++;
+                }
+                System.out.println(date+" has "+objectCounter+"objects");
+                objectCounter=0;
+            }
+        }
+
+
     }
 }

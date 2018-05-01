@@ -20,7 +20,11 @@ public class MainMenu extends Menu {
         }
         switch (option) {
             case 1:
+                getDashBoard().showCalendar();
+                new MainMenu(getDashBoard()).selectOptions();
             case 2:
+                getDashBoard().listByDate();
+                new MainMenu(getDashBoard()).selectOptions();
             case 3:
             case 4:
             case 5:
