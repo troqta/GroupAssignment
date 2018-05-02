@@ -36,9 +36,8 @@ public class Main {
 //        listOne.view();
 
         User martinIvanov = new User("Sexi_Pi4_91","martin1ivanov","Martin Ivanov");
-
-//        User danailIvanov = new User("danailfdsfd","dffddf1","Danail Ivanov");
-//        User alexanderSimeonov = new User("lmaooooo","12345","Alexander Simeonov");
+        User danailIvanov = new User("danailfdsfd","dffddf1","Danail Ivanov");
+        User alexanderSimeonov = new User("lmaooooo","12345","Alexander Simeonov");
 //
 //
 //        EventObject testMeeting = new Meeting("testMeeting", "2018-04-27", "2018-04-28", "testTopic",
@@ -58,6 +57,8 @@ public class Main {
 //
         DashBoard test = new DashBoard("test dashboarfd");
         test.getUsers().add(martinIvanov);
+        test.getUsers().add(danailIvanov);
+        test.getUsers().add(alexanderSimeonov);
         Menu menu = new LogInMenu(test);
         menu.selectOptions();
     }
