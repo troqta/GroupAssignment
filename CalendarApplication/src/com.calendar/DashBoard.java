@@ -1,7 +1,9 @@
 package com.calendar;
 
 import com.calendar.Event.Appointment;
+import com.calendar.Event.AppointmentTypes;
 import com.calendar.Event.Meeting;
+import com.calendar.Event.MeetingTypes;
 import com.calendar.Menus.*;
 import com.calendar.ToDo.ShoppingItem;
 import com.calendar.ToDo.ShoppingList;
@@ -125,15 +127,17 @@ public class DashBoard {
         }
     }
 
-    public void viewCalendarObject(String objectName) {
+    public void viewCalendarObject() {
+        System.out.println("Enter name of object that you want to view:");
+        String objectName = in.nextLine();
         for (CalendarObject obj : currentUser.getSchedule()) {
             if (obj.getName().equals(objectName)) {
-                CalendarObject object = obj;
                 obj.view();
                 if (obj instanceof Meeting) {
                     new ViewMeetingMenu(this, (Meeting) obj).selectOptions();
                 }
                 if (obj instanceof ShoppingList) {
+                    new ViewShoppingListMenu(this, (ShoppingList) obj).selectOptions();
 
                 }
                 if (obj instanceof TaskList) {
@@ -177,5 +181,88 @@ public class DashBoard {
         double price = in.nextDouble();
 
         shoppingList.getItems().add(new ShoppingItem(name, quantity, price));
+    }
+    private User getUserByName(String name){
+        for (User user: users) {
+            if(user.getFullName().toLowerCase().equals(name.toLowerCase())){
+                return user;
+            }
+        }
+        return null;
+    }
+    public void createMeeting(){
+        System.out.println("Insert meeting name:");
+        String name = in.nextLine();
+        System.out.println("Insert date:");
+        String date = in.nextLine();
+        System.out.println("Insert meeting topic:");
+        String topic = in.nextLine();
+        System.out.println("Insert meeting location:");
+        String location = in.nextLine();
+        System.out.println("Insert meeting duration:");
+        String duration = in.nextLine();
+        System.out.println("Insert link to meeting platform:");
+        String linkToMeetingPlatform = in.nextLine();
+        System.out.println("Insert meeting type(Business, Teambuilding):");
+        String stringType = in.nextLine();
+        MeetingTypes type= null;
+        for(MeetingTypes meetingType : MeetingTypes.values()){
+            if(stringType.toLowerCase().equals(meetingType.toString().toLowerCase())){
+                type = meetingType;
+                break;
+            }
+        }
+        System.out.println("Insert meeting attachment filepath. You can leave empty if it will be uploaded later:");
+        String filePath = in.nextLine();
+
+        currentUser.getSchedule().add(new Meeting(name, new Date().toString(), date, topic, location, duration, linkToMeetingPlatform, type, filePath));
+    }
+    public void createAppointment(){
+        System.out.println("Insert appointment name:");
+        String name = in.nextLine();
+        System.out.println("Insert date:");
+        String date = in.nextLine();
+        System.out.println("Insert appointment topic:");
+        String topic = in.nextLine();
+        System.out.println("Insert appointment location:");
+        String location = in.nextLine();
+        System.out.println("Insert appointment duration:");
+        String duration = in.nextLine();
+        System.out.println("Insert appointment type(Chatting, Drinking, Date):");
+        String stringType = in.nextLine();
+        AppointmentTypes type= null;
+        for(AppointmentTypes appointmentType : AppointmentTypes.values()){
+            if(stringType.toLowerCase().equals(appointmentType.toString().toLowerCase())){
+                type = appointmentType;
+                break;
+            }
+        }
+        System.out.println("Insert friend name:");
+        String friendString = in.nextLine();
+        User friend = getUserByName(friendString);
+
+        currentUser.getSchedule().add(new Appointment(name, new Date().toString(), date, topic, location, duration, type, friend));
+    }
+    public void createShoppingList(){
+        System.out.println("Insert shopping list name");
+        String name = in.nextLine();
+        System.out.println("Insert date");
+        String date = in.nextLine();
+        System.out.println("Insert shopping list deadline");
+        String deadline = in.nextLine();
+
+        currentUser.getSchedule().add(new ShoppingList(name, new Date().toString(), date, deadline));
+
+    }
+    public void createTaskList(){
+        System.out.println("Insert task list name");
+        String name = in.nextLine();
+        System.out.println("Insert date");
+        String date = in.nextLine();
+        System.out.println("Insert task list deadline");
+        String deadline = in.nextLine();
+
+        currentUser.getSchedule().add(new TaskList(name, new Date().toString(), date, deadline));
+
     }
 }

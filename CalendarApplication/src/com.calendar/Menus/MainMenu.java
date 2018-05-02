@@ -5,7 +5,7 @@ import com.calendar.DashBoard;
 import java.util.Scanner;
 
 public class MainMenu extends Menu {
-    Scanner in = new Scanner(System.in);
+    private Scanner in = new Scanner(System.in);
 
     public MainMenu(DashBoard dashBoard) {
         super(dashBoard);
@@ -28,10 +28,25 @@ public class MainMenu extends Menu {
                 new MainMenu(getDashBoard()).selectOptions();
                 break;
             case 3:
+                getDashBoard().viewCalendarObject();
+                new MainMenu(getDashBoard()).selectOptions();
+                break;
             case 4:
+                getDashBoard().createMeeting();
+                new MainMenu(getDashBoard()).selectOptions();
+                break;
             case 5:
+                getDashBoard().createAppointment();
+                new MainMenu(getDashBoard()).selectOptions();
+                break;
             case 6:
+                getDashBoard().createShoppingList();
+                new MainMenu(getDashBoard()).selectOptions();
+                break;
             case 7:
+                getDashBoard().createTaskList();
+                new MainMenu(getDashBoard()).selectOptions();
+                break;
             case 8:
                 getDashBoard().logOut();
                 break;
