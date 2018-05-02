@@ -22,9 +22,11 @@ public class MainMenu extends Menu {
             case 1:
                 getDashBoard().showCalendar();
                 new MainMenu(getDashBoard()).selectOptions();
+                break;
             case 2:
                 getDashBoard().listByDate();
                 new MainMenu(getDashBoard()).selectOptions();
+                break;
             case 3:
             case 4:
             case 5:

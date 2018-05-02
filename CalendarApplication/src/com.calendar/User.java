@@ -1,11 +1,12 @@
 package com.calendar;
 
 import com.calendar.Exceptions.NameLengthException;
+import com.calendar.Interfaces.Deletable;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class User {
+public class User implements Deletable {
     private String userName;
     private String password;
     private String fullName;
@@ -103,5 +104,10 @@ public class User {
 
     public void listCalendarObjects() {
         schedule.forEach(System.out::println);
+    }
+
+    @Override
+    public void delete(CalendarObject name) {
+        schedule.remove(name);
     }
 }

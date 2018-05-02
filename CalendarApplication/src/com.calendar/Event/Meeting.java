@@ -16,13 +16,13 @@ public class Meeting extends EventObject implements Downloadable, Uploadable, Vi
     private String filePath;
 
     public Meeting(String name, String creationDate, String date, String topic,
-                       String location, String duration, String linkToMeetingPlatform, MeetingTypes type,
-                   String filePath){
+                   String location, String duration, String linkToMeetingPlatform, MeetingTypes type,
+                   String filePath) {
         super(name, creationDate, date, topic, location, duration);
-        this.participants= new ArrayList<>();
+        this.participants = new ArrayList<>();
         this.linkToMeetingPlatform = linkToMeetingPlatform;
-        this.type=type;
-        this.filePath=filePath;
+        this.type = type;
+        this.filePath = filePath;
 
     }
 
@@ -41,7 +41,8 @@ public class Meeting extends EventObject implements Downloadable, Uploadable, Vi
     public void setLinkToMeetingPlatform(String linkToMeetingPlatform) {
         this.linkToMeetingPlatform = linkToMeetingPlatform;
     }
-    public void addParticipant(User user){
+
+    public void addParticipant(User user) {
         participants.add(user);
     }
 
@@ -59,40 +60,41 @@ public class Meeting extends EventObject implements Downloadable, Uploadable, Vi
 
     @Override
     public void getReminder() {
-        if(type==MeetingTypes.BUSINESS) {
+        if (type == MeetingTypes.BUSINESS) {
             System.out.println("Dress properly for a business meeting and dont forget your notes");
         }
-        if(type==MeetingTypes.TEAMBUILDING) {
+        if (type == MeetingTypes.TEAMBUILDING) {
             System.out.println("Get ready for fun and bring your laughs");
         }
     }
 
     @Override
     public void download() {
-        if(filePath==null){
+        if (filePath == null) {
             System.out.println("Error 404: File not found!");
-        }
-        else {
+        } else {
             System.out.println("Meeting file from filepath: " + filePath + " has been downloaded!");
         }
     }
 
     @Override
     public void upload(String path) {
-        this.filePath=path;
+        this.filePath = path;
     }
+
     @Override
-    public void view(){
-        System.out.println("Meeting name: "+getName());
-        System.out.println("Meeting topic: "+ getTopic());
-        System.out.println("Meeting type: "+type);
-        System.out.println("Meeting date: "+getDate());
+    public void view() {
+        System.out.println("Meeting name: " + getName());
+        System.out.println("Meeting topic: " + getTopic());
+        System.out.println("Meeting type: " + type);
+        System.out.println("Meeting date: " + getDate());
         System.out.println("Participants");
         listParticipants();
-        System.out.println("Meeting duration: "+getDuration());
-        System.out.println("Location: "+getLocation());
+        System.out.println("Meeting duration: " + getDuration());
+        System.out.println("Location: " + getLocation());
     }
-    public void listParticipants(){
-        participants.stream().forEach(x-> System.out.println(" - "+x.getFullName()));
+
+    public void listParticipants() {
+        participants.stream().forEach(x -> System.out.println(" - " + x.getFullName()));
     }
 }
