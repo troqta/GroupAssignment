@@ -36,7 +36,7 @@ public class Main {
 //        listOne.view();
 
         User martinIvanov = new User("Sexi_Pi4_91","martin1ivanov","Martin Ivanov");
-        User danailIvanov = new User("danailfdsfd","dffddf1","Danail Ivanov");
+        User danailIvanov = new User("danail","1234567","Danail Ivanov");
         User alexanderSimeonov = new User("lmaooooo","12345","Alexander Simeonov");
 //
 //

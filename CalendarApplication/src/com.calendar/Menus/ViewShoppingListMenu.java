@@ -27,7 +27,7 @@ public class ViewShoppingListMenu extends Menu {
         switch (option) {
             case 1:
                 getDashBoard().addShoppingItem(shoppingList);
-                new MainMenu(getDashBoard()).selectOptions();
+                new ViewShoppingListMenu(getDashBoard(),shoppingList).selectOptions();
                 break;
             case 2:
                 new EditMenu(getDashBoard(), shoppingList).selectOptions();
@@ -35,7 +35,7 @@ public class ViewShoppingListMenu extends Menu {
             case 3:
                 getDashBoard().getCurrentUser().delete(shoppingList);
                 System.out.println(shoppingList.getName() + " deleted successfully");
-                new MainMenu(getDashBoard()).selectOptions();
+                new ViewShoppingListMenu(getDashBoard(),shoppingList).selectOptions();
                 break;
             case 4:
                 shoppingList.markDone();

@@ -27,7 +27,7 @@ public class ViewTaskListMenu extends Menu {
         switch (option) {
             case 1:
                 getDashBoard().addTask(taskList);
-                new MainMenu(getDashBoard()).selectOptions();
+                new ViewTaskListMenu(getDashBoard(), taskList).selectOptions();
                 break;
             case 2:
                 new EditMenu(getDashBoard(), taskList).selectOptions();
@@ -35,7 +35,7 @@ public class ViewTaskListMenu extends Menu {
             case 3:
                 getDashBoard().getCurrentUser().delete(taskList);
                 System.out.println(taskList.getName() + " deleted successfully");
-                new MainMenu(getDashBoard()).selectOptions();
+                new ViewTaskListMenu(getDashBoard(), taskList).selectOptions();
                 break;
             case 4:
                 taskList.markDone();

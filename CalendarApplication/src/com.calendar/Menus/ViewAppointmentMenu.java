@@ -25,7 +25,7 @@ public class ViewAppointmentMenu extends Menu{
         switch (option) {
             case 1:
                 appointment.attend();
-                new MainMenu(getDashBoard()).selectOptions();
+                new ViewAppointmentMenu(getDashBoard(),appointment).selectOptions();
                 break;
             case 2:
                 new EditMenu(getDashBoard(), appointment).selectOptions();
@@ -33,7 +33,7 @@ public class ViewAppointmentMenu extends Menu{
             case 3:
                 getDashBoard().getCurrentUser().delete(appointment);
                 System.out.println(appointment.getName() + " deleted successfully");
-                new MainMenu(getDashBoard()).selectOptions();
+                new ViewAppointmentMenu(getDashBoard(),appointment).selectOptions();
                 break;
             case 4:
                 appointment.getReminder();

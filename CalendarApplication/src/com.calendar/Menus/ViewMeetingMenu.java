@@ -27,7 +27,7 @@ public class ViewMeetingMenu extends Menu{
         switch (option) {
             case 1:
                 meeting.attend();
-                new MainMenu(getDashBoard()).selectOptions();
+                new ViewMeetingMenu(getDashBoard(),meeting).selectOptions();
                 break;
             case 2:
                 new EditMenu(getDashBoard(), meeting).selectOptions();
@@ -35,16 +35,16 @@ public class ViewMeetingMenu extends Menu{
             case 3:
                 getDashBoard().getCurrentUser().delete(meeting);
                 System.out.println(meeting.getName() + " deleted successfully");
-                new MainMenu(getDashBoard()).selectOptions();
+                new ViewMeetingMenu(getDashBoard(),meeting).selectOptions();
                 break;
             case 4:
                 meeting.upload(in.nextLine());
-                new MainMenu(getDashBoard()).selectOptions();
+                new ViewMeetingMenu(getDashBoard(),meeting).selectOptions();
                 break;
 
             case 5:
                 meeting.download();
-                new MainMenu(getDashBoard()).selectOptions();
+                new ViewMeetingMenu(getDashBoard(),meeting).selectOptions();
                 break;
             case 6:
                 meeting.getReminder();
