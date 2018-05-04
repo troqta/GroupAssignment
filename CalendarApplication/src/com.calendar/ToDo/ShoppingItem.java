@@ -20,28 +20,15 @@ public class ShoppingItem {
     public void setName(String name) {
         this.name = name;
     }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-    public double getPrice() {
+    double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public boolean isBought() {
+    boolean isBought() {
         return bought;
     }
 
-    public void setBought(boolean bought) {
+    void setBought(boolean bought) {
         this.bought = bought;
     }
 

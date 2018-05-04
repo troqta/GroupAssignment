@@ -17,7 +17,7 @@ public class User implements Deletable {
 
             setUserName(userName);
             setPassword(password);
-            this.fullName = fullName;
+            setFullName(fullName);
             schedule = new ArrayList<>();
             friends = new ArrayList<>();
 
@@ -29,7 +29,7 @@ public class User implements Deletable {
         return userName;
     }
 
-    public void setUserName(String userName) throws NameLengthException {
+    private void setUserName(String userName) throws NameLengthException {
 
         if (userName.length() < 6) {
             throw new NameLengthException("Username must be at least 6 characters long");
@@ -44,11 +44,11 @@ public class User implements Deletable {
 
     }
 
-    public String getPassword() {
+    String getPassword() {
         return password;
     }
 
-    public void setPassword(String password) throws NameLengthException {
+    private void setPassword(String password) throws NameLengthException {
         if (!password.matches(".*\\d+.*")) {
             throw new NameLengthException("Password must contain at least one digit");
         }
@@ -62,7 +62,7 @@ public class User implements Deletable {
         return fullName;
     }
 
-    public void setFullName(String fullName) throws NameLengthException{
+    private void setFullName(String fullName) throws NameLengthException{
         if (fullName.length() < 6) {
             throw new NameLengthException("Name must be at least 6 characters long");
         }
@@ -72,36 +72,8 @@ public class User implements Deletable {
         this.fullName = fullName;
     }
 
-    public List<CalendarObject> getSchedule() {
+    List<CalendarObject> getSchedule() {
         return schedule;
-    }
-
-    public void setSchedule(List<CalendarObject> schedule) {
-        this.schedule = schedule;
-    }
-
-    public List<User> getFriends() {
-        return friends;
-    }
-
-    public void setFriends(List<User> friends) {
-        this.friends = friends;
-    }
-
-    public void addFriend(User user) {
-        friends.add(user);
-    }
-
-    public void addCalendarObject(CalendarObject object) {
-        schedule.add(object);
-    }
-
-    public void listFriends() {
-        friends.forEach(System.out::println);
-    }
-
-    public void listCalendarObjects() {
-        schedule.forEach(System.out::println);
     }
 
     @Override

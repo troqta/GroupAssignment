@@ -11,15 +11,6 @@ public class TaskList extends ToDoObject {
         this.tasks = new ArrayList<>();
     }
 
-
-    public List<Task> getTasks() {
-        return tasks;
-    }
-
-    public void setTasks(List<Task> tasks) {
-        this.tasks = tasks;
-    }
-
     public void addTask(Task task) {
         tasks.add(task);
         System.out.printf("Task %s has been added to your task list", task.getName());
@@ -36,7 +27,7 @@ public class TaskList extends ToDoObject {
         tasks.stream().forEach(x-> System.out.println(" - "+ x.getName() +": " + isTaskCompleted(x)));
     }
 
-    public String isTaskCompleted(Task task){
+    private String isTaskCompleted(Task task){
         if(task.isDone()){
             return "Completed";
         }

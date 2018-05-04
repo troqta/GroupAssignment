@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class ViewAppointmentMenu extends Menu{
     private Appointment appointment;
 
-    Scanner in = new Scanner(System.in);
+    private Scanner in = new Scanner(System.in);
 
     public ViewAppointmentMenu(DashBoard dashBoard, Appointment appointment) {
         super(dashBoard);
@@ -33,7 +33,7 @@ public class ViewAppointmentMenu extends Menu{
             case 3:
                 getDashBoard().getCurrentUser().delete(appointment);
                 System.out.println(appointment.getName() + " deleted successfully");
-                new ViewAppointmentMenu(getDashBoard(),appointment).selectOptions();
+                new MainMenu(getDashBoard()).selectOptions();
                 break;
             case 4:
                 appointment.getReminder();

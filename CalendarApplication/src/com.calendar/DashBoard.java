@@ -186,7 +186,7 @@ public class DashBoard {
         System.out.print("Insert task deadline: ");
         String deadline = in.nextLine();
 
-        taskList.getTasks().add(new Task(name, description, deadline));
+        taskList.addTask(new Task(name, description, deadline));
     }
     public void addShoppingItem (ShoppingList shoppingList) {
         System.out.print("Insert shopping item name: ");
@@ -196,7 +196,7 @@ public class DashBoard {
         System.out.print("Insert shopping item price: ");
         double price = in.nextDouble();
 
-        shoppingList.getItems().add(new ShoppingItem(name, quantity, price));
+        shoppingList.addItem(new ShoppingItem(name, quantity, price));
     }
     private User getUserByName(String name){
         for (User user: users) {
@@ -286,5 +286,15 @@ public class DashBoard {
         System.out.println("Insert name of participant:");
         String name = in.nextLine();
         meeting.addParticipant(getUserByName(name));
+    }
+    public void markItemAsBought(ShoppingList shoppingList){
+        System.out.println("Insert name of item you want to mark");
+        String name = in.nextLine();
+        shoppingList.markBought(name);
+    }
+    public void maskTaskAsDone(TaskList taskList){
+        System.out.println("Insert the name of the task you wish to mark as done");
+        String name = in.nextLine();
+        taskList.markCompleted(name);
     }
 }

@@ -17,31 +17,11 @@ public class Task {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getDeadline() {
-        return deadline;
-    }
-
-    public void setDeadline(String deadline) {
-        this.deadline = deadline;
-    }
-
-    public boolean isDone() {
+    boolean isDone() {
         return isDone;
     }
 
-    public void setDone(boolean done) {
+    void setDone(boolean done) {
         isDone = done;
     }
 }

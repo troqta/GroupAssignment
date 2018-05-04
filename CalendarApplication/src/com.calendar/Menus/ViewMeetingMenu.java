@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class ViewMeetingMenu extends Menu{
     private Meeting meeting;
 
-    Scanner in = new Scanner(System.in);
+    private Scanner in = new Scanner(System.in);
 
     public ViewMeetingMenu(DashBoard dashBoard, Meeting meeting) {
         super(dashBoard);
@@ -35,7 +35,7 @@ public class ViewMeetingMenu extends Menu{
             case 3:
                 getDashBoard().getCurrentUser().delete(meeting);
                 System.out.println(meeting.getName() + " deleted successfully");
-                new ViewMeetingMenu(getDashBoard(),meeting).selectOptions();
+                new MainMenu(getDashBoard()).selectOptions();
                 break;
             case 4:
                 meeting.upload(in.nextLine());

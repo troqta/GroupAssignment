@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class ViewShoppingListMenu extends Menu {
     private ShoppingList shoppingList;
 
-    Scanner in = new Scanner(System.in);
+    private Scanner in = new Scanner(System.in);
 
     public ViewShoppingListMenu(DashBoard dashBoard, ShoppingList shoppingList) {
         super(dashBoard);
@@ -20,7 +20,7 @@ public class ViewShoppingListMenu extends Menu {
     @Override
     public void selectOptions() {
         int option = 0;
-        while (option <= 0 || option > 5) {
+        while (option <= 0 || option > 6) {
             printMenu();
             option = in.nextInt();
         }
@@ -35,12 +35,16 @@ public class ViewShoppingListMenu extends Menu {
             case 3:
                 getDashBoard().getCurrentUser().delete(shoppingList);
                 System.out.println(shoppingList.getName() + " deleted successfully");
-                new ViewShoppingListMenu(getDashBoard(),shoppingList).selectOptions();
+                new MainMenu(getDashBoard()).selectOptions();
                 break;
             case 4:
                 shoppingList.markDone();
                 break;
             case 5:
+                getDashBoard().markItemAsBought(shoppingList);
+                new ViewShoppingListMenu(getDashBoard(),shoppingList).selectOptions();
+                break;
+            case 6:
                 new MainMenu(getDashBoard()).selectOptions();
                 break;
         }
@@ -53,6 +57,7 @@ public class ViewShoppingListMenu extends Menu {
         System.out.println("Option 2: Edit shopping list");
         System.out.println("Option 3: Delete shopping list");
         System.out.println("Option 4: Mark as done");
-        System.out.println("Option 5: Back to Main menu");
+        System.out.println("Option 5: Mark shopping item as bought");
+        System.out.println("Option 6: Back to Main menu");
     }
 }

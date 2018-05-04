@@ -20,15 +20,6 @@ public class CalendarObject implements Viewable {
     public void setName(String name) {
         this.name = name;
     }
-
-    public String getCreationDate() {
-        return creationDate;
-    }
-
-    public void setCreationDate(String creationDate) {
-        this.creationDate = creationDate;
-    }
-
     public String getDate() {
         return date;
     }

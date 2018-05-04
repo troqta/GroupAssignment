@@ -9,30 +9,13 @@ public class ShoppingList extends ToDoObject {
 
     public ShoppingList(String name, String creationDate, String date, String deadline) {
         super(name, creationDate, date, deadline);
-        this.items = new ArrayList<ShoppingItem>();
+        this.items = new ArrayList<>();
         this.totalSum = 0.0;
-    }
-
-    public List<ShoppingItem> getItems() {
-        return items;
-    }
-
-    public void setItems(List<ShoppingItem> items) {
-        this.items = items;
-    }
-
-    public double getTotalSum() {
-        return totalSum;
-    }
-
-    public void setTotalSum(double totalSum) {
-        this.totalSum = totalSum;
     }
 
     public void addItem(ShoppingItem item) {
         items.add(item);
         System.out.printf("Item %s has been added to your shopping list", item.getName());
-        System.out.println();
         System.out.println();
     }
 
@@ -61,11 +44,11 @@ public class ShoppingList extends ToDoObject {
         System.out.println("Total money spent: " + totalSum);
     }
 
-    public void printItems() {
+    private void printItems() {
         items.stream().forEach(x -> System.out.println(" - " + x.getName() + ": " + isItemBought(x)));
     }
 
-    public String isItemBought(ShoppingItem item) {
+    private String isItemBought(ShoppingItem item) {
         if (item.isBought()) {
             return "Bought";
         } else {
@@ -74,7 +57,7 @@ public class ShoppingList extends ToDoObject {
         }
     }
 
-    public void getSumOfBoughtItems() {
+    private void getSumOfBoughtItems() {
         totalSum = items.stream()
                 .filter(x -> x.isBought())
                 .mapToDouble(x -> x.getPrice())
@@ -83,8 +66,6 @@ public class ShoppingList extends ToDoObject {
 
     }
 
-
-    //TODO ask Doncho about lambda implementation
     public void markBought(String name) {
         for (int i = 0; i < items.size(); i++) {
             if (items.get(i).getName().equals(name)) {

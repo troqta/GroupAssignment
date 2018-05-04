@@ -10,7 +10,7 @@ public class ViewTaskListMenu extends Menu {
 
     private TaskList taskList;
 
-    Scanner in = new Scanner(System.in);
+    private Scanner in = new Scanner(System.in);
 
     public ViewTaskListMenu(DashBoard dashBoard, TaskList taskList) {
         super(dashBoard);
@@ -35,12 +35,17 @@ public class ViewTaskListMenu extends Menu {
             case 3:
                 getDashBoard().getCurrentUser().delete(taskList);
                 System.out.println(taskList.getName() + " deleted successfully");
-                new ViewTaskListMenu(getDashBoard(), taskList).selectOptions();
+                new MainMenu(getDashBoard()).selectOptions();
                 break;
             case 4:
                 taskList.markDone();
+                new MainMenu(getDashBoard()).selectOptions();
                 break;
             case 5:
+                getDashBoard().maskTaskAsDone(taskList);
+                new ViewTaskListMenu(getDashBoard(), taskList).selectOptions();
+                break;
+            case 6:
                 new MainMenu(getDashBoard()).selectOptions();
                 break;
         }
@@ -53,7 +58,8 @@ public class ViewTaskListMenu extends Menu {
         System.out.println("Option 2: Edit task list");
         System.out.println("Option 3: Delete task list");
         System.out.println("Option 4: Mark as done");
-        System.out.println("Option 5: Back to Main menu");
+        System.out.println("Option 5: Mark task as done");
+        System.out.println("Option 6: Back to Main menu");
     }
 }
 
