@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24103ab5-10ad-483c-9487-5047d2fde054" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/DashBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/DashBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/EventObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/EventObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/Meeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/Meeting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Interfaces/Attendable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Interfaces/Attendable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/CreateAppointmentMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/CreateMeetingMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/CreateShoppingListMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/CreateTaskListMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/workspace.xml" />
@@ -29,82 +13,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CodeIris Favorites" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/Menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewTaskListMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewShoppingListMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewMeetingMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewAppointmentMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditMenu.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/EditMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+            <state relative-caret-position="340">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogInMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/LogInMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,16 +44,19 @@
       <file leaf-file-name="DashBoard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.calendar/DashBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="189" column="9" lean-forward="true" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
+            <state relative-caret-position="1224">
+              <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,21 +65,219 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+            <state relative-caret-position="340">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogInMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/LogInMenu.java">
+      <file leaf-file-name="ClassDiagram.uml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ClassDiagram.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="810.0" y="788.0">com.calendar.Event.MeetingTypes</node>
+                <node x="228.0" y="427.0">com.calendar.ToDo.TaskList</node>
+                <node x="349.0" y="680.0">com.calendar.Menus.MainMenu</node>
+                <node x="381.5694444444444" y="270.0">com.calendar.Interfaces.Downloadable</node>
+                <node x="761.0694444444443" y="113.0">com.calendar.Interfaces.Attendable</node>
+                <node x="141.94444444444446" y="248.0">com.calendar.ToDo.ToDoObject</node>
+                <node x="653.5694444444443" y="226.0">com.calendar.Event.EventObject</node>
+                <node x="996.1944444444443" y="80.0">com.calendar.User</node>
+                <node x="1068.0" y="669.0">com.calendar.Menus.ViewShoppingListMenu</node>
+                <node x="1064.1944444444443" y="0.0">com.calendar.Interfaces.Deletable</node>
+                <node x="0.0" y="669.0">com.calendar.Menus.ViewTaskListMenu</node>
+                <node x="460.5" y="557.0">com.calendar.Menus.Menu</node>
+                <node x="418.0" y="788.0">com.calendar.ToDo.ShoppingItem</node>
+                <node x="838.0" y="669.0">com.calendar.Menus.ViewAppointmentMenu</node>
+                <node x="615.0" y="788.0">com.calendar.Event.AppointmentTypes</node>
+                <node x="423.56944444444446" y="394.0">com.calendar.Event.Meeting</node>
+                <node x="525.5694444444443" y="270.0">com.calendar.Interfaces.Uploadable</node>
+                <node x="171.0" y="669.0">com.calendar.Menus.ViewMeetingMenu</node>
+                <node x="0.0" y="416.0">com.calendar.ToDo.ShoppingList</node>
+                <node x="756.1944444444443" y="416.0">com.calendar.Event.Appointment</node>
+                <node x="0.0" y="788.0">com.calendar.DashBoard</node>
+                <node x="491.0" y="680.0">com.calendar.Menus.LogInMenu</node>
+                <node x="213.0" y="788.0">com.calendar.ToDo.Task</node>
+                <node x="609.5694444444443" y="0.0">com.calendar.Interfaces.Viewable</node>
+                <node x="573.0694444444443" y="80.0">com.calendar.CalendarObject</node>
+                <node x="633.0" y="669.0">com.calendar.Menus.EditMenu</node>
+                <node x="986.0" y="788.0">com.calendar.Exceptions.NameLengthException</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.calendar.User" target="com.calendar.Interfaces.Deletable">
+                  <point x="0.0" y="-70.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.calendar.Event.Appointment" target="com.calendar.Interfaces.Viewable">
+                  <point x="48.75" y="-37.0" />
+                  <point x="902.4444444444443" y="374.0" />
+                  <point x="891.4444444444443" y="374.0" />
+                  <point x="891.4444444444443" y="55.0" />
+                  <point x="688.7361111111111" y="55.0" />
+                  <point x="31.666666666666686" y="15.0" />
+                </edge>
+                <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Viewable">
+                  <point x="-84.0" y="-59.0" />
+                  <point x="451.56944444444446" y="374.0" />
+                  <point x="352.75" y="374.0" />
+                  <point x="352.75" y="55.0" />
+                  <point x="625.4027777777777" y="55.0" />
+                  <point x="-31.666666666666686" y="15.0" />
+                </edge>
+                <edge source="com.calendar.Menus.ViewShoppingListMenu" target="com.calendar.Menus.Menu">
+                  <point x="0.0" y="-37.0" />
+                  <point x="1171.5" y="629.0" />
+                  <point x="630.4285714285714" y="629.0" />
+                  <point x="78.42857142857144" y="26.0" />
+                </edge>
+                <edge source="com.calendar.ToDo.TaskList" target="com.calendar.ToDo.ToDoObject">
+                  <point x="0.0" y="-26.0" />
+                  <point x="305.0" y="374.0" />
+                  <point x="253.69444444444446" y="374.0" />
+                  <point x="37.25" y="37.0" />
+                </edge>
+                <edge source="com.calendar.Menus.EditMenu" target="com.calendar.Menus.Menu">
+                  <point x="0.0" y="-37.0" />
+                  <point x="725.5" y="649.0" />
+                  <point x="578.1428571428572" y="649.0" />
+                  <point x="26.142857142857224" y="26.0" />
+                </edge>
+                <edge source="com.calendar.Event.EventObject" target="com.calendar.Interfaces.Attendable">
+                  <point x="51.5" y="-59.0" />
+                  <point x="808.0694444444443" y="201.0" />
+                  <point x="814.0694444444443" y="201.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.calendar.Menus.ViewTaskListMenu" target="com.calendar.Menus.Menu">
+                  <point x="0.0" y="-37.0" />
+                  <point x="75.5" y="629.0" />
+                  <point x="473.57142857142856" y="629.0" />
+                  <point x="-78.42857142857144" y="26.0" />
+                </edge>
+                <edge source="com.calendar.Event.EventObject" target="com.calendar.CalendarObject">
+                  <point x="-51.5" y="-59.0" />
+                  <point x="705.0694444444443" y="201.0" />
+                  <point x="699.0694444444443" y="201.0" />
+                  <point x="42.0" y="48.0" />
+                </edge>
+                <edge source="com.calendar.Menus.MainMenu" target="com.calendar.Menus.Menu">
+                  <point x="0.0" y="-26.0" />
+                  <point x="410.0" y="649.0" />
+                  <point x="525.8571428571429" y="649.0" />
+                  <point x="-26.14285714285711" y="26.0" />
+                </edge>
+                <edge source="com.calendar.Menus.ViewAppointmentMenu" target="com.calendar.Menus.Menu">
+                  <point x="0.0" y="-37.0" />
+                  <point x="943.0" y="639.0" />
+                  <point x="604.2857142857143" y="639.0" />
+                  <point x="52.285714285714334" y="26.0" />
+                </edge>
+                <edge source="com.calendar.Event.Meeting" target="com.calendar.Event.EventObject">
+                  <point x="84.0" y="-59.0" />
+                  <point x="619.5694444444445" y="374.0" />
+                  <point x="705.0694444444443" y="374.0" />
+                  <point x="-51.5" y="59.0" />
+                </edge>
+                <edge source="com.calendar.Menus.ViewMeetingMenu" target="com.calendar.Menus.Menu">
+                  <point x="0.0" y="-37.0" />
+                  <point x="250.0" y="639.0" />
+                  <point x="499.7142857142858" y="639.0" />
+                  <point x="-52.28571428571422" y="26.0" />
+                </edge>
+                <edge source="com.calendar.CalendarObject" target="com.calendar.Interfaces.Viewable">
+                  <point x="0.0" y="-48.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.calendar.Event.Appointment" target="com.calendar.Event.EventObject">
+                  <point x="-48.75" y="-37.0" />
+                  <point x="804.9444444444443" y="374.0" />
+                  <point x="808.0694444444443" y="374.0" />
+                  <point x="51.5" y="59.0" />
+                </edge>
+                <edge source="com.calendar.ToDo.ShoppingList" target="com.calendar.ToDo.ToDoObject">
+                  <point x="0.0" y="-37.0" />
+                  <point x="104.0" y="374.0" />
+                  <point x="179.19444444444446" y="374.0" />
+                  <point x="-37.25" y="37.0" />
+                </edge>
+                <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Uploadable">
+                  <point x="28.0" y="-59.0" />
+                  <point x="563.5694444444445" y="374.0" />
+                  <point x="579.5694444444443" y="374.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.calendar.Menus.LogInMenu" target="com.calendar.Menus.Menu">
+                  <point x="0.0" y="-26.0" />
+                  <point x="0.0" y="26.0" />
+                </edge>
+                <edge source="com.calendar.ToDo.ToDoObject" target="com.calendar.CalendarObject">
+                  <point x="0.0" y="-37.0" />
+                  <point x="216.44444444444446" y="201.0" />
+                  <point x="615.0694444444443" y="201.0" />
+                  <point x="-42.0" y="48.0" />
+                </edge>
+                <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Downloadable">
+                  <point x="-28.0" y="-59.0" />
+                  <point x="507.56944444444446" y="364.0" />
+                  <point x="443.5694444444444" y="364.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6687763713080169" x="637.5" y="740.0" />
+              <SelectedNodes>
+                <node>com.calendar.Exceptions.NameLengthException</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="1122">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NameLengthException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/Exceptions/NameLengthException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,6 +290,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="UML Sequence" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
@@ -206,6 +340,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
@@ -220,7 +357,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,141 +416,20 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="singup&#9;PSI&#9;JAVA://com.calendar.DashBoard#singUp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CalendarApplication.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/Main.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Main.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/DashBoard.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Event/EventObject.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Event/Meeting.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Interfaces/Attendable.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/MainMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/User.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/EditMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/CreateAppointmentMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/CreateMeetingMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/CreateShoppingListMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/CreateTaskListMenu.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Martin\Documents\GroupAssignment\CalendarApplication\src\com.calendar" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -466,6 +482,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524744353865</updated>
+      <workItem from="1525428798937" duration="92000" />
+      <workItem from="1525428908127" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="Create DashBoard class, modify Main menu and Login menu">
       <created>1524842540355</created>
@@ -474,71 +492,57 @@
       <option name="project" value="LOCAL" />
       <updated>1524842540371</updated>
     </task>
-    <task id="LOCAL-00002" summary="Main Abstract class modified">
-      <created>1524832610351</created>
+    <task id="LOCAL-00002" summary="ClassDiagram created">
+      <created>1525429512748</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1524832610351</updated>
+      <updated>1525429512748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1206000" />
+    <option name="totallyTimeSpent" value="1914000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013812" side_tool="true" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="15" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.27138332" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49861878" weight="0.33190882" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49861878" visible="true" weight="0.32627118" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.32344633" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2637584" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="17" weight="0.32909605" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49932885" weight="0.32909605" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.32344633" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="15" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.32909605" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26354167" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.32344633" />
+      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info id="simpleUML" order="2" weight="0.3296875" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="PlantUML" order="3" weight="0.3296875" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="right" id="Code Iris" order="8" weight="0.5286458" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -571,7 +575,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create DashBoard class, modify Main menu and Login menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create DashBoard class, modify Main menu and Login menu" />
+    <MESSAGE value="ClassDiagram created" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClassDiagram created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,21 +598,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ToDoObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/Attendable.java" />
     <entry file="file://$PROJECT_DIR$/src/com.calendar/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -700,57 +690,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/CreateShoppingListMenu.java" />
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="76" column="39" lean-forward="true" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ToDoObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="374">
           <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="510">
+          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/Exceptions/NameLengthException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="51">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
             <element signature="e#134#135#0" expanded="true" />
@@ -784,9 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,65 +774,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/DashBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="189" column="9" lean-forward="true" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/LogInMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -880,5 +795,292 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/LogInMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/DashBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Diagram.puml" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/modules.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Libraries</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassDiagram.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="810.0" y="788.0">com.calendar.Event.MeetingTypes</node>
+            <node x="228.0" y="427.0">com.calendar.ToDo.TaskList</node>
+            <node x="349.0" y="680.0">com.calendar.Menus.MainMenu</node>
+            <node x="381.5694444444444" y="270.0">com.calendar.Interfaces.Downloadable</node>
+            <node x="761.0694444444443" y="113.0">com.calendar.Interfaces.Attendable</node>
+            <node x="141.94444444444446" y="248.0">com.calendar.ToDo.ToDoObject</node>
+            <node x="653.5694444444443" y="226.0">com.calendar.Event.EventObject</node>
+            <node x="996.1944444444443" y="80.0">com.calendar.User</node>
+            <node x="1068.0" y="669.0">com.calendar.Menus.ViewShoppingListMenu</node>
+            <node x="1064.1944444444443" y="0.0">com.calendar.Interfaces.Deletable</node>
+            <node x="0.0" y="669.0">com.calendar.Menus.ViewTaskListMenu</node>
+            <node x="460.5" y="557.0">com.calendar.Menus.Menu</node>
+            <node x="418.0" y="788.0">com.calendar.ToDo.ShoppingItem</node>
+            <node x="838.0" y="669.0">com.calendar.Menus.ViewAppointmentMenu</node>
+            <node x="615.0" y="788.0">com.calendar.Event.AppointmentTypes</node>
+            <node x="423.56944444444446" y="394.0">com.calendar.Event.Meeting</node>
+            <node x="525.5694444444443" y="270.0">com.calendar.Interfaces.Uploadable</node>
+            <node x="171.0" y="669.0">com.calendar.Menus.ViewMeetingMenu</node>
+            <node x="0.0" y="416.0">com.calendar.ToDo.ShoppingList</node>
+            <node x="756.1944444444443" y="416.0">com.calendar.Event.Appointment</node>
+            <node x="0.0" y="788.0">com.calendar.DashBoard</node>
+            <node x="491.0" y="680.0">com.calendar.Menus.LogInMenu</node>
+            <node x="213.0" y="788.0">com.calendar.ToDo.Task</node>
+            <node x="609.5694444444443" y="0.0">com.calendar.Interfaces.Viewable</node>
+            <node x="573.0694444444443" y="80.0">com.calendar.CalendarObject</node>
+            <node x="633.0" y="669.0">com.calendar.Menus.EditMenu</node>
+            <node x="986.0" y="788.0">com.calendar.Exceptions.NameLengthException</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.calendar.User" target="com.calendar.Interfaces.Deletable">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.calendar.Event.Appointment" target="com.calendar.Interfaces.Viewable">
+              <point x="48.75" y="-37.0" />
+              <point x="902.4444444444443" y="374.0" />
+              <point x="891.4444444444443" y="374.0" />
+              <point x="891.4444444444443" y="55.0" />
+              <point x="688.7361111111111" y="55.0" />
+              <point x="31.666666666666686" y="15.0" />
+            </edge>
+            <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Viewable">
+              <point x="-84.0" y="-59.0" />
+              <point x="451.56944444444446" y="374.0" />
+              <point x="352.75" y="374.0" />
+              <point x="352.75" y="55.0" />
+              <point x="625.4027777777777" y="55.0" />
+              <point x="-31.666666666666686" y="15.0" />
+            </edge>
+            <edge source="com.calendar.Menus.ViewShoppingListMenu" target="com.calendar.Menus.Menu">
+              <point x="0.0" y="-37.0" />
+              <point x="1171.5" y="629.0" />
+              <point x="630.4285714285714" y="629.0" />
+              <point x="78.42857142857144" y="26.0" />
+            </edge>
+            <edge source="com.calendar.ToDo.TaskList" target="com.calendar.ToDo.ToDoObject">
+              <point x="0.0" y="-26.0" />
+              <point x="305.0" y="374.0" />
+              <point x="253.69444444444446" y="374.0" />
+              <point x="37.25" y="37.0" />
+            </edge>
+            <edge source="com.calendar.Menus.EditMenu" target="com.calendar.Menus.Menu">
+              <point x="0.0" y="-37.0" />
+              <point x="725.5" y="649.0" />
+              <point x="578.1428571428572" y="649.0" />
+              <point x="26.142857142857224" y="26.0" />
+            </edge>
+            <edge source="com.calendar.Event.EventObject" target="com.calendar.Interfaces.Attendable">
+              <point x="51.5" y="-59.0" />
+              <point x="808.0694444444443" y="201.0" />
+              <point x="814.0694444444443" y="201.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.calendar.Menus.ViewTaskListMenu" target="com.calendar.Menus.Menu">
+              <point x="0.0" y="-37.0" />
+              <point x="75.5" y="629.0" />
+              <point x="473.57142857142856" y="629.0" />
+              <point x="-78.42857142857144" y="26.0" />
+            </edge>
+            <edge source="com.calendar.Event.EventObject" target="com.calendar.CalendarObject">
+              <point x="-51.5" y="-59.0" />
+              <point x="705.0694444444443" y="201.0" />
+              <point x="699.0694444444443" y="201.0" />
+              <point x="42.0" y="48.0" />
+            </edge>
+            <edge source="com.calendar.Menus.MainMenu" target="com.calendar.Menus.Menu">
+              <point x="0.0" y="-26.0" />
+              <point x="410.0" y="649.0" />
+              <point x="525.8571428571429" y="649.0" />
+              <point x="-26.14285714285711" y="26.0" />
+            </edge>
+            <edge source="com.calendar.Menus.ViewAppointmentMenu" target="com.calendar.Menus.Menu">
+              <point x="0.0" y="-37.0" />
+              <point x="943.0" y="639.0" />
+              <point x="604.2857142857143" y="639.0" />
+              <point x="52.285714285714334" y="26.0" />
+            </edge>
+            <edge source="com.calendar.Event.Meeting" target="com.calendar.Event.EventObject">
+              <point x="84.0" y="-59.0" />
+              <point x="619.5694444444445" y="374.0" />
+              <point x="705.0694444444443" y="374.0" />
+              <point x="-51.5" y="59.0" />
+            </edge>
+            <edge source="com.calendar.Menus.ViewMeetingMenu" target="com.calendar.Menus.Menu">
+              <point x="0.0" y="-37.0" />
+              <point x="250.0" y="639.0" />
+              <point x="499.7142857142858" y="639.0" />
+              <point x="-52.28571428571422" y="26.0" />
+            </edge>
+            <edge source="com.calendar.CalendarObject" target="com.calendar.Interfaces.Viewable">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.calendar.Event.Appointment" target="com.calendar.Event.EventObject">
+              <point x="-48.75" y="-37.0" />
+              <point x="804.9444444444443" y="374.0" />
+              <point x="808.0694444444443" y="374.0" />
+              <point x="51.5" y="59.0" />
+            </edge>
+            <edge source="com.calendar.ToDo.ShoppingList" target="com.calendar.ToDo.ToDoObject">
+              <point x="0.0" y="-37.0" />
+              <point x="104.0" y="374.0" />
+              <point x="179.19444444444446" y="374.0" />
+              <point x="-37.25" y="37.0" />
+            </edge>
+            <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Uploadable">
+              <point x="28.0" y="-59.0" />
+              <point x="563.5694444444445" y="374.0" />
+              <point x="579.5694444444443" y="374.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.calendar.Menus.LogInMenu" target="com.calendar.Menus.Menu">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="com.calendar.ToDo.ToDoObject" target="com.calendar.CalendarObject">
+              <point x="0.0" y="-37.0" />
+              <point x="216.44444444444446" y="201.0" />
+              <point x="615.0694444444443" y="201.0" />
+              <point x="-42.0" y="48.0" />
+            </edge>
+            <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Downloadable">
+              <point x="-28.0" y="-59.0" />
+              <point x="507.56944444444446" y="364.0" />
+              <point x="443.5694444444444" y="364.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6687763713080169" x="637.5" y="740.0" />
+          <SelectedNodes>
+            <node>com.calendar.Exceptions.NameLengthException</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../class.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>
