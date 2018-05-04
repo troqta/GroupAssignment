@@ -16,7 +16,7 @@ Write name here
 This project is a group assignment on Object-Oriented Programming.
 The application is a calendar based tool for setting up business meetings, private appointments, scheduling tasks and shopping list creation. 
 
-Some of the functionalities include:
+Some of the functionalities are:
 
  - Registration of new users
  - Login/Logout for existing users
