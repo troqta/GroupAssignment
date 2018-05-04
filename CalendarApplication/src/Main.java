@@ -1,5 +1,6 @@
 import com.calendar.DashBoard;
 import com.calendar.Event.*;
+import com.calendar.Exceptions.NameLengthException;
 import com.calendar.Menus.LogInMenu;
 import com.calendar.Menus.Menu;
 import com.calendar.ToDo.ShoppingItem;
@@ -34,11 +35,7 @@ public class Main {
 //        listOne.markBought("Ляп");
 //
 //        listOne.view();
-
-        User martinIvanov = new User("Sexi_Pi4_91","martin1ivanov","Martin Ivanov");
-        User danailIvanov = new User("danail","1234567","Danail Ivanov");
-        User alexanderSimeonov = new User("lmaooooo","12345","Alexander Simeonov");
-//
+        //
 //
 //        EventObject testMeeting = new Meeting("testMeeting", "2018-04-27", "2018-04-28", "testTopic",
 //                "u nas", "5 min", "www.pornhub.com", MeetingTypes.TEAMBUILDING, null );
@@ -55,11 +52,23 @@ public class Main {
 //
 //        testAppointment.view();
 //
-        DashBoard test = new DashBoard("test dashboarfd");
-        test.getUsers().add(martinIvanov);
-        test.getUsers().add(danailIvanov);
-        test.getUsers().add(alexanderSimeonov);
-        Menu menu = new LogInMenu(test);
-        menu.selectOptions();
+        try {
+
+
+            User martinIvanov = new User("Sexi_Pi4_91", "martin1ivanov", "Martin Ivanov");
+            User danailIvanov = new User("danail", "1234567", "Danail Ivanov");
+            User alexanderSimeonov = new User("lmaooooo", "12345", "Alexander Simeonov");
+            DashBoard test = new DashBoard("test dashboarfd");
+            test.getUsers().add(martinIvanov);
+            test.getUsers().add(danailIvanov);
+            test.getUsers().add(alexanderSimeonov);
+            Menu menu = new LogInMenu(test);
+            menu.selectOptions();
+        }
+        catch (NameLengthException e) {
+            System.out.println(e.getMessage());
+        }
+
+
     }
 }

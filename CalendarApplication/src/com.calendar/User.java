@@ -13,17 +13,15 @@ public class User implements Deletable {
     private List<CalendarObject> schedule;
     private List<User> friends;
 
-    public User(String userName, String password, String fullName) {
-        try {
+    public User(String userName, String password, String fullName) throws NameLengthException {
+
             setUserName(userName);
             setPassword(password);
             this.fullName = fullName;
             schedule = new ArrayList<>();
             friends = new ArrayList<>();
 
-        } catch (NameLengthException e) {
-            System.out.println(e.getMessage());
-        }
+
 
     }
 

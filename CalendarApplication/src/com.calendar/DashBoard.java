@@ -4,6 +4,7 @@ import com.calendar.Event.Appointment;
 import com.calendar.Event.AppointmentTypes;
 import com.calendar.Event.Meeting;
 import com.calendar.Event.MeetingTypes;
+import com.calendar.Exceptions.NameLengthException;
 import com.calendar.Menus.*;
 import com.calendar.ToDo.ShoppingItem;
 import com.calendar.ToDo.ShoppingList;
@@ -86,10 +87,15 @@ public class DashBoard {
             }
         }
         if (isAvailable) {
-            users.add(new User(username, password, fullName));
-            System.out.println("Signup successful. Login to continue.");
-            System.out.println();
-            logIn();
+            try {
+                users.add(new User(username, password, fullName));
+                System.out.println("Signup successful. Login to continue.");
+                System.out.println();
+                logIn();
+            }catch (NameLengthException e) {
+                System.out.println(e.getMessage());
+                singUp();
+            }
 
         } else {
             singUp();
