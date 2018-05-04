@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24103ab5-10ad-483c-9487-5047d2fde054" name="Default" comment="">
+    <list default="true" id="24103ab5-10ad-483c-9487-5047d2fde054" name="Default" comment="Fixed signup bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/DashBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/DashBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com.calendar/DashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/DashBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.calendar/Event/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Event/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.calendar/Event/EventObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Event/EventObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.calendar/Event/Meeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Event/Meeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/workspace.xml" />
@@ -41,30 +47,15 @@
       <file leaf-file-name="EventObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.calendar/Event/EventObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/MainMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="67" column="57" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogInMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/LogInMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="136">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +64,8 @@
       <file leaf-file-name="DashBoard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com.calendar/DashBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+            <state relative-caret-position="398">
+              <caret line="239" column="43" lean-forward="true" selection-start-line="239" selection-start-column="43" selection-end-line="239" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -82,10 +73,32 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+            <state relative-caret-position="381">
+              <caret line="68" column="47" lean-forward="true" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Appointment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/Event/Appointment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Meeting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/Event/Meeting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-27">
+              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+              <folding>
+                <element signature="e#1390#1391#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +107,17 @@
       <file leaf-file-name="ViewAppointmentMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="415">
+              <caret line="52" column="53" lean-forward="true" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewMeetingMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -107,19 +129,6 @@
               <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NameLengthException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Exceptions/NameLengthException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,12 +170,17 @@
         <option value="$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/Exceptions/NameLengthException.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/Menus/Menu.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/Menus/LogInMenu.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/Menus/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/Menus/CreateShoppingListMenu.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingList.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/User.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/Event/Meeting.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/Event/Appointment.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/Event/EventObject.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/DashBoard.java" />
       </list>
     </option>
@@ -491,7 +505,7 @@
       <workItem from="1525256464891" duration="36000" />
       <workItem from="1525294707987" duration="268000" />
       <workItem from="1525327154016" duration="225000" />
-      <workItem from="1525474395278" duration="504000" />
+      <workItem from="1525474395278" duration="1596000" />
     </task>
     <task id="LOCAL-00001" summary="Create DashBoard class, modify Main menu and Login menu">
       <created>1524842540355</created>
@@ -507,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525141841812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed signup bug">
+      <created>1525475131131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525475131131</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3363000" />
+    <option name="totallyTimeSpent" value="4455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -519,15 +540,15 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49947917" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50104165" side_tool="true" visible="true" weight="0.3284055" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.3284055" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="17" sideWeight="0.49739584" weight="0.3284055" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49895832" visible="true" weight="0.3284055" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4984375" visible="true" weight="0.3284055" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -582,7 +603,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create DashBoard class, modify Main menu and Login menu" />
     <MESSAGE value="Added show calendar and view Date;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added show calendar and view Date;" />
+    <MESSAGE value="Fixed signup bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed signup bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,19 +616,10 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/Deletable.java" />
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/Viewable.java" />
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -799,37 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/Event/MeetingTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/Event/EventObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -840,10 +822,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="68" column="47" lean-forward="true" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Event/Appointment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Event/EventObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="52" column="53" lean-forward="true" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Event/Meeting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding>
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Event/MeetingTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/DashBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+        <state relative-caret-position="398">
+          <caret line="239" column="43" lean-forward="true" selection-start-line="239" selection-start-column="43" selection-end-line="239" selection-end-column="43" />
         </state>
       </provider>
     </entry>

@@ -20,7 +20,7 @@ public class ViewMeetingMenu extends Menu{
     @Override
     public void selectOptions() {
         int option = 0;
-        while (option <= 0 || option > 7) {
+        while (option <= 0 || option > 8) {
             printMenu();
             option = in.nextInt();
         }
@@ -50,9 +50,13 @@ public class ViewMeetingMenu extends Menu{
                 meeting.getReminder();
                 break;
             case 7:
+                getDashBoard().addParticipantToMeeting(meeting);
+                new ViewMeetingMenu(getDashBoard(),meeting).selectOptions();
+                break;
+            case 8:
                 new MainMenu(getDashBoard()).selectOptions();
                 break;
-        }
+    }
     }
 
     @Override
@@ -64,6 +68,7 @@ public class ViewMeetingMenu extends Menu{
         System.out.println("Option 4: Upload attachment");
         System.out.println("Option 5: Download attachment");
         System.out.println("Option 6: Get reminder");
-        System.out.println("Option 7: Back to Main menu");
+        System.out.println("Option 7: Add a participant to meeting");
+        System.out.println("Option 8: Back to Main menu");
     }
 }

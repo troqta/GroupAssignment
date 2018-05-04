@@ -15,22 +15,6 @@ public class Appointment extends EventObject implements Viewable {
         this.friend=friend;
     }
 
-    public AppointmentTypes getType() {
-        return type;
-    }
-
-    public void setType(AppointmentTypes type) {
-        this.type = type;
-    }
-
-    public User getFriend() {
-        return friend;
-    }
-
-    public void setFriend(User friend) {
-        this.friend = friend;
-    }
-
     @Override
     public void getReminder() {
         if(type==AppointmentTypes.CHATTING){
@@ -51,6 +35,10 @@ public class Appointment extends EventObject implements Viewable {
         System.out.println("Appointment date: "+getDate());
         System.out.println("Appointment buddy: " +friend.getUserName());
         System.out.println("Appointment location: "+getLocation());
+        if(isAttended()){
+            System.out.println("Appointment has already been attended");
+        }
+        else System.out.println("Appointment has yet to be attended");
         System.out.println();
 
     }

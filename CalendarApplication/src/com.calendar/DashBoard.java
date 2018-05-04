@@ -230,8 +230,9 @@ public class DashBoard {
         }
         System.out.println("Insert meeting attachment filepath. Leave empty if it will be uploaded later:");
         String filePath = in.nextLine();
-
-        currentUser.getSchedule().add(new Meeting(name, new Date().toString(), date, topic, location, duration, linkToMeetingPlatform, type, filePath));
+        Meeting meeting = new Meeting(name, new Date().toString(), date, topic, location, duration, linkToMeetingPlatform, type, filePath);
+        meeting.addParticipant(currentUser);
+        currentUser.getSchedule().add(meeting);
     }
     public void createAppointment(){
         System.out.println("Insert appointment name:");
@@ -280,5 +281,10 @@ public class DashBoard {
 
         currentUser.getSchedule().add(new TaskList(name, new Date().toString(), date, deadline));
 
+    }
+    public void addParticipantToMeeting(Meeting meeting){
+        System.out.println("Insert name of participant:");
+        String name = in.nextLine();
+        meeting.addParticipant(getUserByName(name));
     }
 }

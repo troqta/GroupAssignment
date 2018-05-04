@@ -26,36 +26,9 @@ public class Meeting extends EventObject implements Downloadable, Uploadable, Vi
 
     }
 
-    public List<User> getParticipants() {
-        return participants;
-    }
-
-    public void setParticipants(List<User> participants) {
-        this.participants = participants;
-    }
-
-    public String getLinkToMeetingPlatform() {
-        return linkToMeetingPlatform;
-    }
-
-    public void setLinkToMeetingPlatform(String linkToMeetingPlatform) {
-        this.linkToMeetingPlatform = linkToMeetingPlatform;
-    }
 
     public void addParticipant(User user) {
         participants.add(user);
-    }
-
-    public MeetingTypes getType() {
-        return type;
-    }
-
-    public void setType(MeetingTypes type) {
-        this.type = type;
-    }
-
-    public String getFilePath() {
-        return filePath;
     }
 
     @Override
@@ -88,11 +61,16 @@ public class Meeting extends EventObject implements Downloadable, Uploadable, Vi
         System.out.println("Meeting topic: " + getTopic());
         System.out.println("Meeting type: " + type);
         System.out.println("Meeting date: " + getDate());
-        System.out.println("Participants");
+        System.out.println("Meeting Participants");
         listParticipants();
         System.out.println("Meeting duration: " + getDuration());
-        System.out.println("Location: " + getLocation());
+        System.out.println("Meeting Location: " + getLocation());
+        System.out.println("Link to meeting platform: "+linkToMeetingPlatform);
         System.out.println();
+        if(isAttended()){
+            System.out.println("Meeting has already been attended");
+        }
+        else System.out.println("Meeting has yet to be attended");
     }
 
     public void listParticipants() {
