@@ -50,16 +50,19 @@ public class DashBoard {
                 if (user.getPassword().equals(password)) {
                     currentUser = user;
                     System.out.println("Login successful.");
+                    System.out.println();
                     new MainMenu(this).selectOptions();
                     break;
                 } else {
                     System.out.println("Wrong password.");
+                    System.out.println();
                     break;
                 }
             }
         }
         if (currentUser == null && !correctUsername) {
             System.out.println("No such user");
+            System.out.println();
             logIn();
         } else if (currentUser == null) {
             logIn();
@@ -78,12 +81,14 @@ public class DashBoard {
         for (User user : users) {
             if (user.getUserName().equals(username)) {
                 System.out.println("This username is already taken.");
+                System.out.println();
                 isAvailable = false;
             }
         }
         if (isAvailable) {
             users.add(new User(username, password, fullName));
             System.out.println("Signup successful. Login to continue.");
+            System.out.println();
             logIn();
 
         } else {
@@ -93,6 +98,7 @@ public class DashBoard {
 
     public void logOut() {
         System.out.println("LogOut successful.");
+        System.out.println();
         currentUser = null;
         new LogInMenu(this).selectOptions();
     }
@@ -135,16 +141,20 @@ public class DashBoard {
                 obj.view();
                 if (obj instanceof Meeting) {
                     new ViewMeetingMenu(this, (Meeting) obj).selectOptions();
+                    System.out.println();
                 }
                 if (obj instanceof ShoppingList) {
                     new ViewShoppingListMenu(this, (ShoppingList) obj).selectOptions();
+                    System.out.println();
 
                 }
                 if (obj instanceof TaskList) {
                     new ViewTaskListMenu(this, (TaskList) obj).selectOptions();
+                    System.out.println();
                 }
                 if (obj instanceof Appointment) {
                     new ViewAppointmentMenu(this, (Appointment) obj).selectOptions();
+                    System.out.println();
                 }
                 break;
             }
@@ -212,7 +222,7 @@ public class DashBoard {
                 break;
             }
         }
-        System.out.println("Insert meeting attachment filepath. You can leave empty if it will be uploaded later:");
+        System.out.println("Insert meeting attachment filepath. Leave empty if it will be uploaded later:");
         String filePath = in.nextLine();
 
         currentUser.getSchedule().add(new Meeting(name, new Date().toString(), date, topic, location, duration, linkToMeetingPlatform, type, filePath));

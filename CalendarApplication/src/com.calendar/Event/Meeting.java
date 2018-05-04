@@ -92,6 +92,7 @@ public class Meeting extends EventObject implements Downloadable, Uploadable, Vi
         listParticipants();
         System.out.println("Meeting duration: " + getDuration());
         System.out.println("Location: " + getLocation());
+        System.out.println();
     }
 
     public void listParticipants() {

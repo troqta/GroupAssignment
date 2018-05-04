@@ -40,7 +40,7 @@ public class Appointment extends EventObject implements Viewable {
             System.out.println("Time to get drunk with "+friend.getFullName()+"! Dont forget to take a cab back home!");
         }
         else if(type==AppointmentTypes.DATE){
-            System.out.println("Its time to go pick up "+friend.getFullName()+" and bring them to"+ getLocation());
+            System.out.println("Its time to go pick up "+friend.getFullName()+" and bring them to "+ getLocation());
         }
     }
     @Override
@@ -51,6 +51,7 @@ public class Appointment extends EventObject implements Viewable {
         System.out.println("Appointment date: "+getDate());
         System.out.println("Appointment buddy: " +friend.getUserName());
         System.out.println("Appointment location: "+getLocation());
+        System.out.println();
 
     }
 }
