@@ -27,4 +27,4 @@ Some of the functionalities include:
  - Files upload/download
 
 ## Class diagram
-[https://github.com/MartinStoyanoff/GroupAssignment/blob/master/ClassDiagram.png]
+https://github.com/MartinStoyanoff/GroupAssignment/blob/master/ClassDiagram.png
