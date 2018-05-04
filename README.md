@@ -27,4 +27,4 @@ Some of the functionalities include:
  - Files upload/download
 
 ## Class diagram
-![enter image description here](https://files.slack.com/files-pri/T9VTWF50Q-FAHKLL1B2/classdiagram.png)
+https://github.com/MartinStoyanoff/GroupAssignment/blob/master/ClassDiagram.png
