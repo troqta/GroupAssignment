@@ -5,7 +5,7 @@ https://github.com/MartinStoyanoff/GroupAssignment
 ## Team
 
 ### Team name:
-Write name here
+Scarlet Witch
 ### Team members:
 
 - Alexander Simeonov ([Aleksandur_Simeonov](http://judge.telerikacademy.com/user/Aleksandur_Simeonov),[ GitHub](https://github.com/troqta))  
