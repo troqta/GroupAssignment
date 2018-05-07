@@ -3,22 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="24103ab5-10ad-483c-9487-5047d2fde054" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/Appointment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/Appointment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/EventObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/EventObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/Meeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/Meeting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewMeetingMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewMeetingMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/CalendarObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/CalendarObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/CalendarObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/CalendarObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/DashBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/DashBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewAppointmentMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewAppointmentMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewShoppingListMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewShoppingListMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewTaskListMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewTaskListMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/ToDo/ShoppingItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/ToDo/ShoppingItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/ToDo/ShoppingList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/ToDo/ShoppingList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/ToDo/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/ToDo/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/ToDo/TaskList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/ToDo/TaskList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/ToDo/ToDoObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/ToDo/ToDoObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com.calendar/DashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/DashBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/ToDo/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/ToDo/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/ToDo/ToDoObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/ToDo/ToDoObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.calendar/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.calendar/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/workspace.xml" />
@@ -31,23 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShoppingList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+            <state relative-caret-position="1156">
+              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DashBoard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/DashBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2717">
-              <caret line="188" column="25" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -55,38 +42,26 @@
       <file leaf-file-name="ViewTaskListMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+            <state relative-caret-position="136">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java">
+      <file leaf-file-name="ViewMeetingMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToDoObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ToDoObject.java">
+      <file leaf-file-name="ViewShoppingListMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalendarObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/CalendarObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -94,29 +69,8 @@
       <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/EditMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -124,12 +78,54 @@
       <file leaf-file-name="ShoppingItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding>
                 <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#480#481#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewAppointmentMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="709">
+              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashBoard.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com.calendar/DashBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="291" column="9" lean-forward="true" selection-start-line="291" selection-start-column="9" selection-end-line="291" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -177,18 +173,18 @@
         <option value="$PROJECT_DIR$/src/com.calendar/Event/Meeting.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/Event/Appointment.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/Event/EventObject.java" />
-        <option value="$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java" />
-        <option value="$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java" />
-        <option value="$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java" />
-        <option value="$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java" />
-        <option value="$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingItem.java" />
-        <option value="$PROJECT_DIR$/src/com.calendar/ToDo/Task.java" />
-        <option value="$PROJECT_DIR$/src/com.calendar/DashBoard.java" />
-        <option value="$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java" />
-        <option value="$PROJECT_DIR$/src/com.calendar/ToDo/ToDoObject.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/CalendarObject.java" />
-        <option value="$PROJECT_DIR$/src/com.calendar/User.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/ToDo/ToDoObject.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java" />
         <option value="$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingList.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/ToDo/Task.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingItem.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/User.java" />
+        <option value="$PROJECT_DIR$/src/com.calendar/DashBoard.java" />
       </list>
     </option>
   </component>
@@ -212,9 +208,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,6 +267,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,182 +275,6 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/Main.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/DashBoard.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/Appointment.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/EventObject.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Event/Meeting.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Interfaces/Attendable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/MainMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/User.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Main.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/DashBoard.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Event/Appointment.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Event/Meeting.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../.idea/modules.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../.idea/uiDesigner.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../.idea/vcs.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/pegdown-doclet.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/ClassDiagram.uml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/EditMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewAppointmentMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewMeetingMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewShoppingListMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/ViewTaskListMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ClassDiagram.uml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../ClassDiagram.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Login preview.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Signup test.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/Main.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/CalendarObject.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/DashBoard.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Event/Appointment.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Event/AppointmentTypes.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Event/EventObject.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Event/Meeting.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Event/MeetingTypes.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Exceptions/NameLengthException.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Interfaces/Attendable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Interfaces/Deletable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Interfaces/Downloadable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Interfaces/Uploadable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Interfaces/Viewable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Menus/EditMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Menus/LogInMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Menus/MainMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Menus/Menu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Menus/ViewAppointmentMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Menus/ViewMeetingMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Menus/ViewShoppingListMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/Menus/ViewTaskListMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/ToDo/ShoppingItem.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/ToDo/ShoppingList.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/ToDo/Task.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/ToDo/TaskList.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/ToDo/ToDoObject.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../out/production/CalendarApplication/com/calendar/User.class</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Calendar Application.emm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Calendar application description.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/CreateAppointmentMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/CreateMeetingMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/CreateShoppingListMenu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/CalendarApplication/com/calendar/Menus/CreateTaskListMenu.class</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -512,7 +332,8 @@
       <workItem from="1525256464891" duration="36000" />
       <workItem from="1525294707987" duration="268000" />
       <workItem from="1525327154016" duration="225000" />
-      <workItem from="1525474395278" duration="3385000" />
+      <workItem from="1525474395278" duration="3647000" />
+      <workItem from="1525669841096" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="Create DashBoard class, modify Main menu and Login menu">
       <created>1524842540355</created>
@@ -542,11 +363,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525476178416</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added more options to list menus, Cleaned up getters and setters that were not used">
+      <created>1525478017909</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525478017909</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6244000" />
+    <option name="totallyTimeSpent" value="6830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -554,7 +382,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49895832" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -562,7 +389,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="17" sideWeight="0.49739584" weight="0.3284055" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4984375" visible="true" weight="0.3284055" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4984375" weight="0.3284055" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -580,6 +407,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49895832" weight="0.32946146" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +447,8 @@
     <MESSAGE value="Added show calendar and view Date;" />
     <MESSAGE value="Fixed signup bug" />
     <MESSAGE value="Added add participant to meeting menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added add participant to meeting menu" />
+    <MESSAGE value="Added more options to list menus, Cleaned up getters and setters that were not used" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more options to list menus, Cleaned up getters and setters that were not used" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -757,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,27 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -833,31 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ToDoObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/CalendarObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -865,47 +645,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/DashBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ToDoObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2717">
-          <caret line="188" column="25" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/User.java">
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewAppointmentMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewTaskListMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+        <state relative-caret-position="136">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java">
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewMeetingMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/Menus/ViewShoppingListMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        <state relative-caret-position="1156">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/ShoppingItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding>
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/ToDo/TaskList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.calendar/DashBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="291" column="9" lean-forward="true" selection-start-line="291" selection-start-column="9" selection-end-line="291" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -285,7 +285,14 @@ public class DashBoard {
     public void addParticipantToMeeting(Meeting meeting){
         System.out.println("Insert name of participant:");
         String name = in.nextLine();
-        meeting.addParticipant(getUserByName(name));
+        User user = getUserByName(name);
+        if(user!=null) {
+            meeting.addParticipant(user);
+            getUserByName(name).getSchedule().add(meeting);
+        }
+        else{
+            System.out.println("No such user exists!");
+        }
     }
     public void markItemAsBought(ShoppingList shoppingList){
         System.out.println("Insert name of item you want to mark");
