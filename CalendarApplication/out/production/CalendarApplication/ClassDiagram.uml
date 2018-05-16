@@ -4,158 +4,155 @@
   <OriginalElement />
   <nodes>
     <node x="810.0" y="788.0">com.calendar.Event.MeetingTypes</node>
-    <node x="228.0" y="427.0">com.calendar.ToDo.TaskList</node>
-    <node x="349.0" y="680.0">com.calendar.Menus.MainMenu</node>
-    <node x="381.5694444444444" y="270.0">com.calendar.Interfaces.Downloadable</node>
-    <node x="761.0694444444443" y="113.0">com.calendar.Interfaces.Attendable</node>
-    <node x="141.94444444444446" y="248.0">com.calendar.ToDo.ToDoObject</node>
-    <node x="653.5694444444443" y="226.0">com.calendar.Event.EventObject</node>
-    <node x="996.1944444444443" y="80.0">com.calendar.User</node>
+    <node x="228.00000000000006" y="427.0">com.calendar.ToDo.TaskList</node>
+    <node x="554.0" y="680.0">com.calendar.Menus.MainMenu</node>
+    <node x="378.45000000000005" y="270.0">com.calendar.Interfaces.Downloadable</node>
+    <node x="734.95" y="113.0">com.calendar.Interfaces.Attendable</node>
+    <node x="138.93055555555554" y="248.0">com.calendar.ToDo.ToDoObject</node>
+    <node x="650.45" y="226.0">com.calendar.Event.EventObject</node>
+    <node x="969.3611111111111" y="80.0">com.calendar.User</node>
     <node x="1068.0" y="669.0">com.calendar.Menus.ViewShoppingListMenu</node>
-    <node x="1064.1944444444443" y="0.0">com.calendar.Interfaces.Deletable</node>
+    <node x="1037.361111111111" y="0.0">com.calendar.Interfaces.Deletable</node>
     <node x="0.0" y="669.0">com.calendar.Menus.ViewTaskListMenu</node>
-    <node x="460.5" y="557.0">com.calendar.Menus.Menu</node>
+    <node x="523.5" y="557.0">com.calendar.Menus.Menu</node>
     <node x="418.0" y="788.0">com.calendar.ToDo.ShoppingItem</node>
     <node x="838.0" y="669.0">com.calendar.Menus.ViewAppointmentMenu</node>
     <node x="615.0" y="788.0">com.calendar.Event.AppointmentTypes</node>
-    <node x="423.56944444444446" y="394.0">com.calendar.Event.Meeting</node>
-    <node x="525.5694444444443" y="270.0">com.calendar.Interfaces.Uploadable</node>
+    <node x="421.26944444444445" y="394.0">com.calendar.Event.Meeting</node>
+    <node x="522.45" y="270.0">com.calendar.Interfaces.Uploadable</node>
     <node x="171.0" y="669.0">com.calendar.Menus.ViewMeetingMenu</node>
     <node x="0.0" y="416.0">com.calendar.ToDo.ShoppingList</node>
-    <node x="756.1944444444443" y="416.0">com.calendar.Event.Appointment</node>
+    <node x="729.3611111111111" y="416.0">com.calendar.Event.Appointment</node>
     <node x="0.0" y="788.0">com.calendar.DashBoard</node>
-    <node x="491.0" y="680.0">com.calendar.Menus.LogInMenu</node>
+    <node x="696.0" y="680.0">com.calendar.Menus.LogInMenu</node>
     <node x="213.0" y="788.0">com.calendar.ToDo.Task</node>
-    <node x="609.5694444444443" y="0.0">com.calendar.Interfaces.Viewable</node>
-    <node x="573.0694444444443" y="80.0">com.calendar.CalendarObject</node>
-    <node x="633.0" y="669.0">com.calendar.Menus.EditMenu</node>
+    <node x="582.7361111111111" y="0.0">com.calendar.Interfaces.Viewable</node>
+    <node x="1199.0" y="788.0">Main</node>
+    <node x="546.95" y="80.0">com.calendar.CalendarObject</node>
+    <node x="349.0" y="669.0">com.calendar.Menus.EditMenu</node>
     <node x="986.0" y="788.0">com.calendar.Exceptions.NameLengthException</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.calendar.User" target="com.calendar.Interfaces.Deletable">
-      <point x="0.0" y="-70.0" />
-      <point x="0.0" y="15.0" />
-    </edge>
-    <edge source="com.calendar.Event.Appointment" target="com.calendar.Interfaces.Viewable">
-      <point x="48.75" y="-37.0" />
-      <point x="902.4444444444443" y="374.0" />
-      <point x="891.4444444444443" y="374.0" />
-      <point x="891.4444444444443" y="55.0" />
-      <point x="688.7361111111111" y="55.0" />
-      <point x="31.666666666666686" y="15.0" />
-    </edge>
-    <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Viewable">
-      <point x="-84.0" y="-59.0" />
-      <point x="451.56944444444446" y="374.0" />
-      <point x="352.75" y="374.0" />
-      <point x="352.75" y="55.0" />
-      <point x="625.4027777777777" y="55.0" />
-      <point x="-31.666666666666686" y="15.0" />
-    </edge>
-    <edge source="com.calendar.Menus.ViewShoppingListMenu" target="com.calendar.Menus.Menu">
-      <point x="0.0" y="-37.0" />
-      <point x="1171.5" y="629.0" />
-      <point x="630.4285714285714" y="629.0" />
-      <point x="78.42857142857144" y="26.0" />
-    </edge>
-    <edge source="com.calendar.ToDo.TaskList" target="com.calendar.ToDo.ToDoObject">
-      <point x="0.0" y="-26.0" />
-      <point x="305.0" y="374.0" />
-      <point x="253.69444444444446" y="374.0" />
-      <point x="37.25" y="37.0" />
-    </edge>
     <edge source="com.calendar.Menus.EditMenu" target="com.calendar.Menus.Menu">
       <point x="0.0" y="-37.0" />
-      <point x="725.5" y="649.0" />
-      <point x="578.1428571428572" y="649.0" />
-      <point x="26.142857142857224" y="26.0" />
+      <point x="441.5" y="649.0" />
+      <point x="588.8571428571429" y="649.0" />
+      <point x="-26.14285714285711" y="26.0" />
     </edge>
-    <edge source="com.calendar.Event.EventObject" target="com.calendar.Interfaces.Attendable">
-      <point x="51.5" y="-59.0" />
-      <point x="808.0694444444443" y="201.0" />
-      <point x="814.0694444444443" y="201.0" />
+    <edge source="com.calendar.User" target="com.calendar.Interfaces.Deletable">
+      <point x="0.0" y="-70.0" />
       <point x="0.0" y="15.0" />
     </edge>
     <edge source="com.calendar.Menus.ViewTaskListMenu" target="com.calendar.Menus.Menu">
       <point x="0.0" y="-37.0" />
       <point x="75.5" y="629.0" />
-      <point x="473.57142857142856" y="629.0" />
+      <point x="536.5714285714286" y="629.0" />
       <point x="-78.42857142857144" y="26.0" />
     </edge>
-    <edge source="com.calendar.Event.EventObject" target="com.calendar.CalendarObject">
-      <point x="-51.5" y="-59.0" />
-      <point x="705.0694444444443" y="201.0" />
-      <point x="699.0694444444443" y="201.0" />
-      <point x="42.0" y="48.0" />
-    </edge>
-    <edge source="com.calendar.Menus.MainMenu" target="com.calendar.Menus.Menu">
-      <point x="0.0" y="-26.0" />
-      <point x="410.0" y="649.0" />
-      <point x="525.8571428571429" y="649.0" />
-      <point x="-26.14285714285711" y="26.0" />
-    </edge>
-    <edge source="com.calendar.Menus.ViewAppointmentMenu" target="com.calendar.Menus.Menu">
-      <point x="0.0" y="-37.0" />
-      <point x="943.0" y="639.0" />
-      <point x="604.2857142857143" y="639.0" />
-      <point x="52.285714285714334" y="26.0" />
-    </edge>
-    <edge source="com.calendar.Event.Meeting" target="com.calendar.Event.EventObject">
-      <point x="84.0" y="-59.0" />
-      <point x="619.5694444444445" y="374.0" />
-      <point x="705.0694444444443" y="374.0" />
-      <point x="-51.5" y="59.0" />
+    <edge source="com.calendar.Event.EventObject" target="com.calendar.Interfaces.Attendable">
+      <point x="40.0" y="-59.0" />
+      <point x="770.45" y="201.0" />
+      <point x="787.95" y="201.0" />
+      <point x="0.0" y="15.0" />
     </edge>
     <edge source="com.calendar.Menus.ViewMeetingMenu" target="com.calendar.Menus.Menu">
       <point x="0.0" y="-37.0" />
       <point x="250.0" y="639.0" />
-      <point x="499.7142857142858" y="639.0" />
+      <point x="562.7142857142858" y="639.0" />
       <point x="-52.28571428571422" y="26.0" />
+    </edge>
+    <edge source="com.calendar.Event.Appointment" target="com.calendar.Interfaces.Viewable">
+      <point x="48.75" y="-37.0" />
+      <point x="876.1111111111111" y="55.0" />
+      <point x="661.9027777777778" y="55.0" />
+      <point x="31.666666666666686" y="15.0" />
+    </edge>
+    <edge source="com.calendar.Event.EventObject" target="com.calendar.CalendarObject">
+      <point x="-40.0" y="-59.0" />
+      <point x="690.45" y="201.0" />
+      <point x="672.95" y="201.0" />
+      <point x="42.0" y="48.0" />
+    </edge>
+    <edge source="com.calendar.Menus.MainMenu" target="com.calendar.Menus.Menu">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Viewable">
+      <point x="-84.0" y="-59.0" />
+      <point x="449.26944444444445" y="374.0" />
+      <point x="352.75" y="374.0" />
+      <point x="352.75" y="55.0" />
+      <point x="598.5694444444445" y="55.0" />
+      <point x="-31.666666666666686" y="15.0" />
+    </edge>
+    <edge source="com.calendar.Menus.ViewAppointmentMenu" target="com.calendar.Menus.Menu">
+      <point x="0.0" y="-37.0" />
+      <point x="943.0" y="639.0" />
+      <point x="667.2857142857143" y="639.0" />
+      <point x="52.285714285714334" y="26.0" />
+    </edge>
+    <edge source="com.calendar.Menus.LogInMenu" target="com.calendar.Menus.Menu">
+      <point x="0.0" y="-26.0" />
+      <point x="757.0" y="649.0" />
+      <point x="641.1428571428572" y="649.0" />
+      <point x="26.142857142857224" y="26.0" />
+    </edge>
+    <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Downloadable">
+      <point x="-28.0" y="-59.0" />
+      <point x="505.26944444444445" y="364.0" />
+      <point x="440.45000000000005" y="364.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.calendar.ToDo.ToDoObject" target="com.calendar.CalendarObject">
+      <point x="0.0" y="-37.0" />
+      <point x="213.43055555555554" y="201.0" />
+      <point x="588.95" y="201.0" />
+      <point x="-42.0" y="48.0" />
     </edge>
     <edge source="com.calendar.CalendarObject" target="com.calendar.Interfaces.Viewable">
       <point x="0.0" y="-48.0" />
       <point x="0.0" y="15.0" />
     </edge>
+    <edge source="com.calendar.Menus.ViewShoppingListMenu" target="com.calendar.Menus.Menu">
+      <point x="0.0" y="-37.0" />
+      <point x="1171.5" y="629.0" />
+      <point x="693.4285714285714" y="629.0" />
+      <point x="78.42857142857144" y="26.0" />
+    </edge>
+    <edge source="com.calendar.ToDo.TaskList" target="com.calendar.ToDo.ToDoObject">
+      <point x="0.0" y="-26.0" />
+      <point x="305.00000000000006" y="374.0" />
+      <point x="250.68055555555554" y="374.0" />
+      <point x="37.25" y="37.0" />
+    </edge>
+    <edge source="com.calendar.Event.Meeting" target="com.calendar.Event.EventObject">
+      <point x="84.0" y="-59.0" />
+      <point x="617.2694444444445" y="374.0" />
+      <point x="690.45" y="374.0" />
+      <point x="-40.0" y="59.0" />
+    </edge>
     <edge source="com.calendar.Event.Appointment" target="com.calendar.Event.EventObject">
       <point x="-48.75" y="-37.0" />
-      <point x="804.9444444444443" y="374.0" />
-      <point x="808.0694444444443" y="374.0" />
-      <point x="51.5" y="59.0" />
+      <point x="778.1111111111111" y="374.0" />
+      <point x="770.45" y="374.0" />
+      <point x="40.0" y="59.0" />
     </edge>
     <edge source="com.calendar.ToDo.ShoppingList" target="com.calendar.ToDo.ToDoObject">
       <point x="0.0" y="-37.0" />
       <point x="104.0" y="374.0" />
-      <point x="179.19444444444446" y="374.0" />
+      <point x="176.18055555555554" y="374.0" />
       <point x="-37.25" y="37.0" />
     </edge>
     <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Uploadable">
       <point x="28.0" y="-59.0" />
-      <point x="563.5694444444445" y="374.0" />
-      <point x="579.5694444444443" y="374.0" />
-      <point x="0.0" y="15.0" />
-    </edge>
-    <edge source="com.calendar.Menus.LogInMenu" target="com.calendar.Menus.Menu">
-      <point x="0.0" y="-26.0" />
-      <point x="0.0" y="26.0" />
-    </edge>
-    <edge source="com.calendar.ToDo.ToDoObject" target="com.calendar.CalendarObject">
-      <point x="0.0" y="-37.0" />
-      <point x="216.44444444444446" y="201.0" />
-      <point x="615.0694444444443" y="201.0" />
-      <point x="-42.0" y="48.0" />
-    </edge>
-    <edge source="com.calendar.Event.Meeting" target="com.calendar.Interfaces.Downloadable">
-      <point x="-28.0" y="-59.0" />
-      <point x="507.56944444444446" y="364.0" />
-      <point x="443.5694444444444" y="364.0" />
+      <point x="561.2694444444445" y="374.0" />
+      <point x="576.45" y="374.0" />
       <point x="0.0" y="15.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.6687763713080169" x="637.5" y="453.99999999999994" />
-  <SelectedNodes>
-    <node>com.calendar.Exceptions.NameLengthException</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="0.939873417721519" x="637.5" y="474.0" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Inner Classes</Category>

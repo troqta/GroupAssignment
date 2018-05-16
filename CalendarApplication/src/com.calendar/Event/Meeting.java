@@ -8,7 +8,7 @@ import com.calendar.User;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Meeting extends EventObject implements Downloadable, Uploadable, Viewable {
+public class Meeting extends EventObject implements Downloadable, Uploadable {
 
     private List<User> participants;
     private String linkToMeetingPlatform;

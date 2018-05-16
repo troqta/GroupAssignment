@@ -3,7 +3,7 @@ package com.calendar.Event;
 import com.calendar.Interfaces.Viewable;
 import com.calendar.User;
 
-public class Appointment extends EventObject implements Viewable {
+public class Appointment extends EventObject {
 
     private AppointmentTypes type;
     private User friend;
