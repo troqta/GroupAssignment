@@ -25,7 +25,7 @@ public class ViewAppointmentMenu extends Menu{
         switch (option) {
             case 1:
                 appointment.attend();
-                new ViewAppointmentMenu(getDashBoard(),appointment).selectOptions();
+                selectOptions();
                 break;
             case 2:
                 new EditMenu(getDashBoard(), appointment).selectOptions();

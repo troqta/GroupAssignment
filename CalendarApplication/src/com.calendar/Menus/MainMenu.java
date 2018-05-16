@@ -21,31 +21,31 @@ public class MainMenu extends Menu {
         switch (option) {
             case 1:
                 getDashBoard().showCalendar();
-                new MainMenu(getDashBoard()).selectOptions();
+                selectOptions();
                 break;
             case 2:
                 getDashBoard().listByDate();
-                new MainMenu(getDashBoard()).selectOptions();
+                selectOptions();
                 break;
             case 3:
                 getDashBoard().viewCalendarObject();
-                new MainMenu(getDashBoard()).selectOptions();
+                selectOptions();
                 break;
             case 4:
                 getDashBoard().createMeeting();
-                new MainMenu(getDashBoard()).selectOptions();
+                selectOptions();
                 break;
             case 5:
                 getDashBoard().createAppointment();
-                new MainMenu(getDashBoard()).selectOptions();
+                selectOptions();
                 break;
             case 6:
                 getDashBoard().createShoppingList();
-                new MainMenu(getDashBoard()).selectOptions();
+                selectOptions();
                 break;
             case 7:
                 getDashBoard().createTaskList();
-                new MainMenu(getDashBoard()).selectOptions();
+                selectOptions();
                 break;
             case 8:
                 getDashBoard().logOut();

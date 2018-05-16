@@ -9,9 +9,9 @@ import java.util.Scanner;
 public class EditMenu extends  Menu{
     private CalendarObject object;
 
-    Scanner in = new Scanner(System.in);
+    private Scanner in = new Scanner(System.in);
 
-    public EditMenu(DashBoard dashBoard, CalendarObject object) {
+    EditMenu(DashBoard dashBoard, CalendarObject object) {
         super(dashBoard);
         this.object = object;
     }
@@ -26,11 +26,11 @@ public class EditMenu extends  Menu{
         switch (option) {
             case 1:
                 getDashBoard().editName(object);
-                new EditMenu(getDashBoard(), object).selectOptions();
+                selectOptions();
                 break;
             case 2:
                 getDashBoard().changeDate(object);
-                new EditMenu(getDashBoard(), object).selectOptions();
+                selectOptions();
                 break;
             case 3:
                 new MainMenu(getDashBoard()).selectOptions();

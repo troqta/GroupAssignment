@@ -27,7 +27,7 @@ public class ViewMeetingMenu extends Menu{
         switch (option) {
             case 1:
                 meeting.attend();
-                new ViewMeetingMenu(getDashBoard(),meeting).selectOptions();
+                selectOptions();
                 break;
             case 2:
                 new EditMenu(getDashBoard(), meeting).selectOptions();
@@ -39,19 +39,19 @@ public class ViewMeetingMenu extends Menu{
                 break;
             case 4:
                 meeting.upload(in.nextLine());
-                new ViewMeetingMenu(getDashBoard(),meeting).selectOptions();
+                selectOptions();
                 break;
 
             case 5:
                 meeting.download();
-                new ViewMeetingMenu(getDashBoard(),meeting).selectOptions();
+                selectOptions();
                 break;
             case 6:
                 meeting.getReminder();
                 break;
             case 7:
                 getDashBoard().addParticipantToMeeting(meeting);
-                new ViewMeetingMenu(getDashBoard(),meeting).selectOptions();
+                selectOptions();
                 break;
             case 8:
                 new MainMenu(getDashBoard()).selectOptions();

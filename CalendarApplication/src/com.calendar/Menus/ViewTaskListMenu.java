@@ -27,7 +27,7 @@ public class ViewTaskListMenu extends Menu {
         switch (option) {
             case 1:
                 getDashBoard().addTask(taskList);
-                new ViewTaskListMenu(getDashBoard(), taskList).selectOptions();
+               selectOptions();
                 break;
             case 2:
                 new EditMenu(getDashBoard(), taskList).selectOptions();
@@ -43,7 +43,7 @@ public class ViewTaskListMenu extends Menu {
                 break;
             case 5:
                 getDashBoard().maskTaskAsDone(taskList);
-                new ViewTaskListMenu(getDashBoard(), taskList).selectOptions();
+                selectOptions();
                 break;
             case 6:
                 new MainMenu(getDashBoard()).selectOptions();

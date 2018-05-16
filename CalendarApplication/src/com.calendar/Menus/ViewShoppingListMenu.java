@@ -27,7 +27,7 @@ public class ViewShoppingListMenu extends Menu {
         switch (option) {
             case 1:
                 getDashBoard().addShoppingItem(shoppingList);
-                new ViewShoppingListMenu(getDashBoard(),shoppingList).selectOptions();
+                selectOptions();
                 break;
             case 2:
                 new EditMenu(getDashBoard(), shoppingList).selectOptions();
@@ -42,7 +42,7 @@ public class ViewShoppingListMenu extends Menu {
                 break;
             case 5:
                 getDashBoard().markItemAsBought(shoppingList);
-                new ViewShoppingListMenu(getDashBoard(),shoppingList).selectOptions();
+                selectOptions();
                 break;
             case 6:
                 new MainMenu(getDashBoard()).selectOptions();
